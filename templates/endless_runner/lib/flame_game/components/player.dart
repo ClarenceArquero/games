@@ -50,7 +50,7 @@ class Player extends SpriteAnimationGroupComponent<PlayerState>
     // This defines the different animation states that the player can be in.
     animations = {
       PlayerState.running: await game.loadSpriteAnimation(
-        'dash/dash_running.png',
+        'dash/sample_run.png',
         SpriteAnimationData.sequenced(
           amount: 4,
           textureSize: Vector2.all(16),
